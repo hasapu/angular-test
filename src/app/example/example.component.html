@@ -1,8 +1,27 @@
-<!-- div paling luar untuk layout -->
-<div style="background-color: red" fxLayoutAlign="stretch" fxFlexFill>
-
-  <!-- dibungkus div untuk kontekt -->
-  <div>
-    example works!
+<div fxLayoutAlign="stretch" fxFlexFill fxFlexAlign="center" fxLayout.xs="column">
+  <div fxFlex="50" style="background-color: red">lalla</div>
+  <div fxFlex="50" style="background-color: blue;margin-top: 40px" fxLayout="column">
+    <div style="background-color: yellow">ini col 1</div>
+    <div style="background-color: green" fxFlex="50" fxLayout="row" fxLayout.xs="column">
+      <div fxFlex="50" style="background-color: #7f7f7f"><button mat-raised-button style="margin-top: 5px">Ajukan Pinjaman</button></div>
+      <div fxFlex="50" style="background-color: #3470b6"><button mat-raised-button style="margin-top: 5px">Ajukan Pinjaman</button></div>
+    </div>
+    <div style="background-color: green" fxLayout="row" fxFlex fxLayout.xs="column">
+      <div fxFlex="50" style="background-color: #7f7f7f">1</div>
+      <div fxFlex style="background-color: #3470b6">2</div>
+    </div>
+    <div style="background-color: green" fxLayout="row" fxFlex fxLayout.xs="column">
+      <div fxFlex="50" style="background-color: #7f7f7f">1</div>
+      <div fxFlex style="background-color: #3470b6">2</div>
+    </div>
+    <div style="background-color: green" fxLayout="row" fxFlex fxLayout.xs="column">
+      <div fxFlex="50" style="background-color: #7f7f7f">1</div>
+      <div fxFlex style="background-color: #3470b6">2</div>
+    </div>
+    <div style="background-color: green" fxLayout="row" fxFlex fxLayout.xs="column">
+      <div fxFlex="50" style="background-color: #7f7f7f">1</div>
+      <div fxFlex style="background-color: #3470b6">2</div>
+    </div>
+    <div fxFlex></div>
   </div>
 </div>
