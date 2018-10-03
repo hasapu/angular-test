@@ -9,3 +9,12 @@
   bottom: 0;
   top: 0;*/
 }
+
+
+.footer {
+  height: 20px;
+  background-color: #3470b6;
+  /*position:relative;
+  overflow:hidden;*/
+  font-size: medium;
+}
